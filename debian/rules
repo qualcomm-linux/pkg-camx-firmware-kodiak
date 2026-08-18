@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_install:
+
+override_dh_install:
+	dh_install --sourcedir=camx-firmware-kodiak/arm64
+
+override_dh_strip:
+	    dh_strip -X/usr/lib/firmware/
