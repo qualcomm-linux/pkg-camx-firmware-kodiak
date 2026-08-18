@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_install:
+
+override_dh_install:
+	dh_install
+	mv debian/camx-firmware-kodiak/usr/lib/firmware/qcom/qcm6490/CAMERA_ICP_AAAAAA.elf \
+	   debian/camx-firmware-kodiak/usr/lib/firmware/qcom/qcm6490/CAMERA_ICP_170.elf
+
+override_dh_strip:
+	    dh_strip -X/usr/lib/firmware/
