@@ -1,8 +1,9 @@
-camx-firmware-kodiak (1.0.2-1) UNRELEASED; urgency=low
+camx-firmware-kodiak (1.0.2-1) resolute; urgency=low
 
+  [ Qualcomm Camera Team ]
   * Rename firmware to CAMERA_ICP_170.elf; clean debian/rules; fix watch file
 
- -- Qualcomm Camera Team <camx.deb.maintainers@qti.qualcomm.com>  Fri, 21 Aug 2026 12:00:00 -0800
+ -- GitHub Service Bot <githubservice@qti.qualcomm.com>  Fri, 21 Aug 2026 18:21:19 +0000
 
 camx-firmware-kodiak (1.0.1-1) UNRELEASED; urgency=low
 
